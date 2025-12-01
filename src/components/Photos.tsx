@@ -133,10 +133,13 @@ const Photos = () => {
 
   return (
     <Box>
+      <Typography variant="h1" textAlign={"center"} fontSize={"4rem"} p={"5px"}>
+        Infinite-scrolling
+      </Typography>
       <Box
         sx={{
           display: "grid",
-          gridTemplateColumns: "repeat(5, 1fr)", // Improved responsive grid
+          gridTemplateColumns: "repeat(5, 1fr)",
           gap: 2,
         }}
       >
